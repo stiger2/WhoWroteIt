@@ -196,36 +196,5 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void searchBooksVolley(View view) {
-//        RequestQueue queue = Volley.newRequestQueue(this);
-//        mQueryString = mBookInput.getText().toString();
-//        // Constants for the various components of the Books API request.
-//        //
-//        // Base endpoint URL for the Books API.
-//
-//
-//
-//        // Build the full query URI, limiting results to 10 items and
-//        // printed books.
-//
-//
-//        JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.GET, builtURI.toString(), null,
-//                new Response.Listener<JSONObject>() {
-//                    @Override
-//                    public void onResponse(JSONObject response) {
-//                        try {
-//                            String data = response.getJSONArray("items").getJSONObject(0).getJSONObject("volumeInfo").getJSONObject("imageLinks").getString("smallThumbmail");
-//                            Log.d("Result", data );
-//                        } catch (JSONException e) {
-//                            e.printStackTrace();
-//                        }
-//                        // Do something with response - can update the UI directly here
-//                    }
-//                }, new Response.ErrorListener() {
-//            @Override
-//            public void onErrorResponse(VolleyError error) {}
-//        });
-//        queue.add(jsonRequest);
-//
-    }
+
 }
